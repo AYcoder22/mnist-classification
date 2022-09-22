@@ -1,5 +1,8 @@
 # Convolutional Deep Neural Network for Digit Classification
 
+![image](https://user-images.githubusercontent.com/69795479/191759965-694282a2-c8d8-48f8-89ba-fab07d4b8a1d.png)
+
+
 ## AIM
 
 To Develop a convolutional deep neural network for digit classification and to verify the response for scanned handwritten images.
