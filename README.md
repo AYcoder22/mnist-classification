@@ -21,8 +21,7 @@ Include the neural network model diagram.
 Write your own steps
 
 ## PROGRAM
-
-'''
+```
 import numpy as np
 from tensorflow import keras
 from tensorflow.keras import layers
@@ -91,7 +90,7 @@ x_single_prediction = np.argmax(
     model.predict(img_28_gray_inverted_scaled.reshape(1,28,28,1)),
      axis=1)
 print(x_single_prediction)
-'''
+```
 
 ## OUTPUT
 
