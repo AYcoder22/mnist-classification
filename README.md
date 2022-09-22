@@ -76,14 +76,19 @@ X_train_scaled = X_train_scaled.reshape(-1,28,28,1)
 X_test_scaled = X_test_scaled.reshape(-1,28,28,1)
 
 model = keras.Sequential()
-# Write your code here
+model.add(layers.Input(shape=(28,28,1)))
+model.add(layers.Conv2D(filters=32,kernel_size=(3,3),activation='relu'))
+model.add(layers.MaxPool2D(pool_size=(2,2)))
+model.add(layers.Flatten())
+model.add(layers.Dense(32,activation='relu'))
+model.add(layers.Dense(10,activation='softmax'))
 
 model.summary()
 # Choose the appropriate parameters
 
-model.compile(loss='',
-              optimizer='',
-              metrics='')
+model.compile(loss='categorical_crossentropy',
+              optimizer='adam',
+              metrics='accuracy')
 
 model.fit(X_train_scaled ,y_train_onehot, epochs=5,
           batch_size=64, 
