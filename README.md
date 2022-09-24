@@ -1,8 +1,5 @@
 # Convolutional Deep Neural Network for Digit Classification
 
-![image](https://user-images.githubusercontent.com/69795479/191759965-694282a2-c8d8-48f8-89ba-fab07d4b8a1d.png)
-
-
 ## AIM
 
 To Develop a convolutional deep neural network for digit classification and to verify the response for scanned handwritten images.
@@ -139,18 +136,25 @@ print(x_single_prediction)
 
 ### Training Loss, Validation Loss Vs Iteration Plot
 
-Include your plot here
+![image](https://user-images.githubusercontent.com/69795479/192082998-bc594282-0949-42ad-afff-d9e0e8260956.png)
+![image](https://user-images.githubusercontent.com/69795479/192083005-a717cdac-97ad-443b-a133-dc485bf6cbcd.png)
+
 
 ### Classification Report
 
-Include Classification Report here
+![image](https://user-images.githubusercontent.com/69795479/192083017-ef813833-28a9-4e4c-997a-590a6e8b2234.png)
+
 
 ### Confusion Matrix
 
-Include confusion matrix here
+![image](https://user-images.githubusercontent.com/69795479/192083026-ddd0cabc-64fa-43ed-b828-f797545148a7.png)
 
 ### New Sample Data Prediction
 
-Include your sample input and output for your hand written images.
+![image](https://user-images.githubusercontent.com/69795479/192083039-1195bbb1-6e34-47e0-ac15-5fa30814a14b.png)
 
 ## RESULT
+
+A convolutional deep neural network for digit classification and to verify the response for scanned handwritten images is developed sucessfully.
+
+
